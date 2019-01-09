@@ -1,0 +1,29 @@
+{
+  "name": "elasticsearch-upgrade-indices",
+  "version": "1.0.0",
+  "description": "Search indices created in old Elasticsearch version, and recreate them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nladuguie/elasticsearch-upgrade-indices.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "elasticsearch"
+  ],
+  "author": "Nicolas Laduguie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nladuguie/elasticsearch-upgrade-indices/issues"
+  },
+  "homepage": "https://github.com/nladuguie/elasticsearch-upgrade-indices#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "enquirer": "^2.3.0",
+    "request": "^2.88.0"
+  }
+}
